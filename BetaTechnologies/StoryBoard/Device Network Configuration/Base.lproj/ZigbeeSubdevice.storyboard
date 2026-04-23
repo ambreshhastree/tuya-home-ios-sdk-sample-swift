@@ -11,7 +11,7 @@
         <!--Zigbee Subdevice-->
         <scene sceneID="yci-L4-WUV">
             <objects>
-                <tableViewController id="hug-0b-NTm" customClass="ZigbeeSubdeviceTableViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="hug-0b-NTm" customClass="ZigbeeSubdeviceTableViewController" customModule="BetaTechnologies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="qXj-51-8lW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,7 @@
         <!--Choose Gateway-->
         <scene sceneID="rxA-5r-mc1">
             <objects>
-                <tableViewController id="1ET-gc-yif" customClass="ChooseGatewayTableViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="1ET-gc-yif" customClass="ChooseGatewayTableViewController" customModule="BetaTechnologies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="zrw-ej-1W4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

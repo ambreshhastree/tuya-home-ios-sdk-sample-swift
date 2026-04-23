@@ -45,9 +45,7 @@ class LoginTableViewController: UITableViewController {
             laContext.loginByBiometric(withEvaluatePolicy:.deviceOwnerAuthenticationWithBiometrics , localizedReason: "Login com Face ID") { success, result, error in
                 if success {
                     ThingSmartUser.sharedInstance().reset(userInfo: result as! [AnyHashable : Any], source: 9)
-                    let storyboard = UIStoryboard(name: "ThingSmartMain", bundle: nil)
-                    let vc = storyboard.instantiateInitialViewController()
-                    self.window?.rootViewController = vc
+                    AppRouter.transitionToMainApp()
                 }
             }
         } else {
@@ -68,9 +66,7 @@ class LoginTableViewController: UITableViewController {
                                                  email: account,
                                                  password: password) { [weak self] in
                 guard let self = self else { return }
-                let storyboard = UIStoryboard(name: "ThingSmartMain", bundle: nil)
-                let vc = storyboard.instantiateInitialViewController()
-                self.window?.rootViewController = vc
+                AppRouter.transitionToMainApp()
                 
                 // Login Success, update current Account Infomation
                 UserDefaults.standard.set(ThingSmartUser.sharedInstance().uid, forKey: "com.thing.userInfo")
@@ -83,9 +79,7 @@ class LoginTableViewController: UITableViewController {
         case .phone:
             ThingSmartUser.sharedInstance().login(byPhone: countryCode, phoneNumber: account, password: password) { [weak self] in
                 guard let self = self else { return }
-                let storyboard = UIStoryboard(name: "ThingSmartMain", bundle: nil)
-                let vc = storyboard.instantiateInitialViewController()
-                self.window?.rootViewController = vc
+                AppRouter.transitionToMainApp()
                 
                 // Login Success, update current Account Infomation
                 UserDefaults.standard.set(ThingSmartUser.sharedInstance().uid, forKey: "com.thing.userInfo")

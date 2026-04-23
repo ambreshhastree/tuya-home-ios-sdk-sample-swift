@@ -11,13 +11,13 @@
         <!--Add Scene View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="AddSceneViewController" id="Y6W-OH-hqX" customClass="AddSceneViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddSceneViewController" id="Y6W-OH-hqX" customClass="AddSceneViewController" customModule="BetaTechnologies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="64" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="uvx-Fi-2xU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="name-cell" id="QAj-nj-uPf" customClass="SceneNameCell" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="name-cell" id="QAj-nj-uPf" customClass="SceneNameCell" customModule="BetaTechnologies" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="393" height="64"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QAj-nj-uPf" id="9zy-VI-fhY">
@@ -46,7 +46,7 @@
                                     <outlet property="nameTextFiled" destination="HjD-do-p5z" id="c6Y-HC-ff2"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="type-cell" textLabel="vbh-AC-PUn" detailTextLabel="V5A-v6-h9R" style="IBUITableViewCellStyleValue1" id="TNe-YF-jZZ" customClass="SceneTypeCell" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="type-cell" textLabel="vbh-AC-PUn" detailTextLabel="V5A-v6-h9R" style="IBUITableViewCellStyleValue1" id="TNe-YF-jZZ" customClass="SceneTypeCell" customModule="BetaTechnologies" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="114" width="393" height="64"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TNe-YF-jZZ" id="kqD-rr-8xz">
@@ -74,10 +74,10 @@
                                     <outlet property="showLabel" destination="vbh-AC-PUn" id="c6F-co-OPu"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="condition-cell" textLabel="yf1-RZ-Sq8" style="IBUITableViewCellStyleDefault" id="hKh-WN-Jay" customClass="SceneShowCell" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="condition-cell" textLabel="yf1-RZ-Sq8" style="IBUITableViewCellStyleDefault" id="hKh-WN-Jay" customClass="SceneShowCell" customModule="BetaTechnologies" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="178" width="393" height="64"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hKh-WN-Jay" id="BoL-Ed-kl1" customClass="SceneShowCell" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hKh-WN-Jay" id="BoL-Ed-kl1" customClass="SceneShowCell" customModule="BetaTechnologies" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="64"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -94,7 +94,7 @@
                                     <outlet property="detailLabel" destination="yf1-RZ-Sq8" id="NFt-nP-T6R"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="add-cell" id="hI9-ic-5TG" customClass="SceneAddCell" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="add-cell" id="hI9-ic-5TG" customClass="SceneAddCell" customModule="BetaTechnologies" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="242" width="393" height="64"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hI9-ic-5TG" id="Jax-MQ-Djh">

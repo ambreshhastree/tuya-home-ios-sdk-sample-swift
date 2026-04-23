@@ -307,6 +307,7 @@
 		AFBB5BC225B95F3C006BDDD7 /* DeviceStatusBehaveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB5BC125B95F3C006BDDD7 /* DeviceStatusBehaveCell.swift */; };
 		CC76959E2F99E489008F09ED /* thing_custom_config.json in Resources */ = {isa = PBXBuildFile; fileRef = CC76959D2F99E486008F09ED /* thing_custom_config.json */; };
 		CC7695A02F99F20F008F09ED /* DeviceControlDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC76959F2F99F20F008F09ED /* DeviceControlDemoViewController.swift */; };
+		CC7695A22F9A0789008F09ED /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7695A12F9A0789008F09ED /* AppRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -676,6 +677,7 @@
 		B2A4751A3340941A1C42F4D9 /* Pods-BetaTechnologies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetaTechnologies.debug.xcconfig"; path = "Target Support Files/Pods-BetaTechnologies/Pods-BetaTechnologies.debug.xcconfig"; sourceTree = "<group>"; };
 		CC76959D2F99E486008F09ED /* thing_custom_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = thing_custom_config.json; sourceTree = "<group>"; };
 		CC76959F2F99F20F008F09ED /* DeviceControlDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlDemoViewController.swift; sourceTree = "<group>"; };
+		CC7695A12F9A0789008F09ED /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1792,6 +1794,7 @@
 		AF5E2F5025A5D5FB00DAF14E /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				CC7695A12F9A0789008F09ED /* AppRouter.swift */,
 				AF5E2F5125A5D60B00DAF14E /* Alert.swift */,
 				AF3A25A325A8426D003EB9FF /* UIButtonExtension.swift */,
 				AF3A25B125A99E02003EB9FF /* UIViewControllerExtension.swift */,
@@ -2105,6 +2108,7 @@
 				4248D8C62C7F413C006D33D3 /* ShareVC.swift in Sources */,
 				6E3905FD2DC21F36002B0B95 /* CameraMessageView.swift in Sources */,
 				AF00606E25EE6B30001462B8 /* BEZigbeeGatewayViewController.swift in Sources */,
+				CC7695A22F9A0789008F09ED /* AppRouter.swift in Sources */,
 				6E6B06A42D9ABD9B00F7BC07 /* DemoSplitVideoInfoProcesser.swift in Sources */,
 				6E6B07442D9D1F3E00F7BC07 /* DemoSplitVideoViewContext.swift in Sources */,
 				6EF284612DABC86F00D6C026 /* CameraCallViewController.swift in Sources */,

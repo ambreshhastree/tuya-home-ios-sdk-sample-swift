@@ -10,7 +10,7 @@
         <!--Invited Home-->
         <scene sceneID="tnX-sk-hTp">
             <objects>
-                <tableViewController title="Invited Home" id="0Fe-tN-mQC" customClass="BEInvitedHomeViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Invited Home" id="0Fe-tN-mQC" customClass="BEInvitedHomeViewController" customModule="BetaTechnologies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="L6T-tg-Jaq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

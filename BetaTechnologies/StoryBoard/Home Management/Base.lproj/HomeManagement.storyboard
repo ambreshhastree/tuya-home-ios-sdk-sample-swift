@@ -10,7 +10,7 @@
         <!--HomeManagement-->
         <scene sceneID="aZm-t7-bme">
             <objects>
-                <tableViewController id="UVN-3y-Sqq" userLabel="HomeManagement" customClass="ThingSmartHomeManagementListViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="UVN-3y-Sqq" userLabel="HomeManagement" customClass="ThingSmartHomeManagementListViewController" customModule="BetaTechnologies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="q3z-Ra-hg3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

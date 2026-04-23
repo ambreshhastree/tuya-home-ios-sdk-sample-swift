@@ -12,7 +12,7 @@
         <!--BE Bluetooth Low Energy-->
         <scene sceneID="IU3-9n-dQu">
             <objects>
-                <viewController id="dQs-8h-9Ka" userLabel="BE Bluetooth Low Energy" customClass="BEBLEModeViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dQs-8h-9Ka" userLabel="BE Bluetooth Low Energy" customClass="BEBLEModeViewController" customModule="BetaTechnologies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o9d-h7-Zy0">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

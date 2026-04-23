@@ -10,7 +10,7 @@
         <!--Zigbee Gateway-->
         <scene sceneID="pOh-fT-26t">
             <objects>
-                <viewController id="LCV-6b-V9c" customClass="ZigbeeGatewayViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LCV-6b-V9c" customClass="ZigbeeGatewayViewController" customModule="BetaTechnologies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="axV-TY-gcE">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

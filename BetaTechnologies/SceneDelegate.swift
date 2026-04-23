@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  ThingAppSDKSample-iOS-Swift
+//  BetaTechnologies
 //
 //  Copyright (c) 2014-2021 Thing Inc. (https://developer.tuya.com/)
 
@@ -22,18 +22,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             self.window = UIWindow(windowScene: windowScene)
             
             if ThingSmartUser.sharedInstance().isLogin {
-                // User has already logged, launch the app with the main view controller.
-                let storyboard = UIStoryboard(name: "ThingSmartMain", bundle: nil)
-                let vc = storyboard.instantiateInitialViewController()
-                window?.rootViewController = vc
-                window?.makeKeyAndVisible()
+                if let mainVC = AppRouter.mainAppTabBar() {
+                    self.window?.rootViewController = mainVC
+                }
             } else {
-                // There's no user logged, launch the app with the login and register view controller.
-                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let vc = storyboard.instantiateInitialViewController()
-                window?.rootViewController = vc
-                window?.makeKeyAndVisible()
+                if let loginVC = AppRouter.loginViewController() {
+                    self.window?.rootViewController = loginVC
+                }
             }
+            
+            self.window?.makeKeyAndVisible()
         }
     }
 }

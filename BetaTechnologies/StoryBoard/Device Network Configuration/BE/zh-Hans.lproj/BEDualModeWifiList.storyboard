@@ -28,7 +28,7 @@
         <!--Dual Mode WiFi List-->
         <scene sceneID="abc-def-ghi">
             <objects>
-                <viewController storyboardIdentifier="BEDualModeWifiListTableViewController" id="abc-def-ghi" customClass="BEDualModeWifiListTableViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BEDualModeWifiListTableViewController" id="abc-def-ghi" customClass="BEDualModeWifiListTableViewController" customModule="BetaTechnologies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

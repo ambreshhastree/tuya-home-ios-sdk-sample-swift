@@ -12,7 +12,7 @@
         <!--BEDualMode-->
         <scene sceneID="3dT-dw-fpp">
             <objects>
-                <viewController id="Ckc-1r-Nmc" userLabel="BEDualMode" customClass="BEDualModeTableViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ckc-1r-Nmc" userLabel="BEDualMode" customClass="BEDualModeTableViewController" customModule="BetaTechnologies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X8G-2C-1Px">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -13,7 +13,7 @@
         <!--Tuya SDK Sample-->
         <scene sceneID="u0i-Jf-8hX">
             <objects>
-                <viewController id="YoJ-f1-LxW" customClass="MainViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YoJ-f1-LxW" customClass="MainViewController"  customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2rq-zy-7ke">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

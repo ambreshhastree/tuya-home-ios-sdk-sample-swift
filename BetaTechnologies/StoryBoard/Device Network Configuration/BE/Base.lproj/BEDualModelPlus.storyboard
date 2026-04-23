@@ -9,7 +9,7 @@
         <!--Mode Table View Controller-->
         <scene sceneID="vzU-c8-xvj">
             <objects>
-                <viewController id="eyS-ON-qvR" customClass="BEDualModePlusViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController"/>
+                <viewController id="eyS-ON-qvR" customClass="BEDualModePlusViewController" customModule="BetaTechnologies" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOZ-Lo-tmi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="36" y="55"/>

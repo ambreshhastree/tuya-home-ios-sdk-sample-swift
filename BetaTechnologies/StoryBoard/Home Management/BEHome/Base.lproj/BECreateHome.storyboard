@@ -11,7 +11,7 @@
         <!--CreateHome-->
         <scene sceneID="obK-Yu-lrg">
             <objects>
-                <tableViewController title="Create Home" id="7pq-IU-5yz" userLabel="CreateHome" customClass="BECreateHomeViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Create Home" id="7pq-IU-5yz" userLabel="CreateHome" customClass="BECreateHomeViewController" customModule="BetaTechnologies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="5BD-df-nZy">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
