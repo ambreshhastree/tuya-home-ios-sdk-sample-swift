@@ -54,7 +54,7 @@ class ThingSmartMainTableViewController: UITableViewController {
             let vc = FaceIDLoginViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         } else if indexPath.section == 0 && indexPath.row == 2 {
-            // 多端登录管理
+            // Multi-device Login Management
             let vc = MultiDeviceLoginViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         } else if indexPath.section == 0 && indexPath.row == 3 {

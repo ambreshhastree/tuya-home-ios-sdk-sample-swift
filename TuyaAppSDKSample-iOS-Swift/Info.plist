@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSFaceIDUsageDescription</key>
-	<string>This will allow the app to log in using Face ID.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -33,6 +31,8 @@
 	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>For better usage, we will suggest you to give us the permissions to use your camera.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>This will allow the app to log in using Face ID.</string>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>For better usage, we will suggest you to give us the permissions to use your local network.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>

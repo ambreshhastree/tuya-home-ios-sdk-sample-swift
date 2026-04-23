@@ -1,0 +1,12 @@
+{
+  "config": {
+    "appId": 123,
+    "thingAppKey": "ug7c84f3rthek48sf4m4",
+    "appScheme": "betatechnologiesapp",
+    "hotspotPrefixs": ["SmartLife"],
+    "needBle": true
+  },
+  "colors": {
+    "themeColor": "#22C55E"
+  }
+}

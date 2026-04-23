@@ -30,7 +30,6 @@
 		3389B9512E8BB64D00D4E02C /* AccountVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389B94F2E8BB64D00D4E02C /* AccountVerificationViewController.swift */; };
 		3389B9522E8BB64D00D4E02C /* DeviceLogoutVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389B9502E8BB64D00D4E02C /* DeviceLogoutVerificationViewController.swift */; };
 		338C78402E4DE1B200033147 /* FaceIDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C783F2E4DE1B200033147 /* FaceIDLoginViewController.swift */; };
-		339CD9602E7C13D700B11B52 /* thing_custom_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 339CD95F2E7C13D700B11B52 /* thing_custom_config.json */; };
 		33A43D5A2DDB1D7800C3CE31 /* BEDualModeWifiListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A43D592DDB1D7800C3CE31 /* BEDualModeWifiListTableViewController.swift */; };
 		33D06A672E8BE36B003936A7 /* PasswordVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D06A662E8BE36B003936A7 /* PasswordVerificationViewController.swift */; };
 		345DFE522BBAC5B4001408AC /* DeviceOfflineReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DFE512BBAC5B4001408AC /* DeviceOfflineReminderVC.swift */; };
@@ -306,6 +305,7 @@
 		AF96134025B708AE000971CC /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF96133F25B708AE000971CC /* LabelTableViewCell.swift */; };
 		AFBB5BBF25B95BBA006BDDD7 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB5BBE25B95BBA006BDDD7 /* NotificationName.swift */; };
 		AFBB5BC225B95F3C006BDDD7 /* DeviceStatusBehaveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB5BC125B95F3C006BDDD7 /* DeviceStatusBehaveCell.swift */; };
+		CC76959E2F99E489008F09ED /* thing_custom_config.json in Resources */ = {isa = PBXBuildFile; fileRef = CC76959D2F99E486008F09ED /* thing_custom_config.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -349,7 +349,6 @@
 		3389B94F2E8BB64D00D4E02C /* AccountVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVerificationViewController.swift; sourceTree = "<group>"; };
 		3389B9502E8BB64D00D4E02C /* DeviceLogoutVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLogoutVerificationViewController.swift; sourceTree = "<group>"; };
 		338C783F2E4DE1B200033147 /* FaceIDLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDLoginViewController.swift; sourceTree = "<group>"; };
-		339CD95F2E7C13D700B11B52 /* thing_custom_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = thing_custom_config.json; sourceTree = "<group>"; };
 		33A43D592DDB1D7800C3CE31 /* BEDualModeWifiListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BEDualModeWifiListTableViewController.swift; sourceTree = "<group>"; };
 		33D06A662E8BE36B003936A7 /* PasswordVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVerificationViewController.swift; sourceTree = "<group>"; };
 		345DFE512BBAC5B4001408AC /* DeviceOfflineReminderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceOfflineReminderVC.swift; sourceTree = "<group>"; };
@@ -674,6 +673,7 @@
 		AFBB5BBE25B95BBA006BDDD7 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
 		AFBB5BC125B95F3C006BDDD7 /* DeviceStatusBehaveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStatusBehaveCell.swift; sourceTree = "<group>"; };
 		B2A4751A3340941A1C42F4D9 /* Pods-TuyaAppSDKSample-iOS-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaAppSDKSample-iOS-Swift.debug.xcconfig"; path = "Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		CC76959D2F99E486008F09ED /* thing_custom_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = thing_custom_config.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1711,7 +1711,7 @@
 		AF5531DE25A5992500E13562 /* TuyaAppSDKSample-iOS-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				339CD95F2E7C13D700B11B52 /* thing_custom_config.json */,
+				CC76959D2F99E486008F09ED /* thing_custom_config.json */,
 				0534EC192ABAED1100DD6E7E /* iconfont.json */,
 				0534EC1A2ABAED1100DD6E7E /* iconfont.ttf */,
 				0FF096B02AB3F120003C6BDA /* TuyaAppSDKSample-iOS-Swift.entitlements */,
@@ -1905,7 +1905,6 @@
 				AF3B499125B8095800286C4A /* DeviceList.storyboard in Resources */,
 				82B55A4C2AB1E20400FBE30B /* BECreateInvitation.storyboard in Resources */,
 				82B55B9B2AB3073400FBE30B /* BERoomList.storyboard in Resources */,
-				339CD9602E7C13D700B11B52 /* thing_custom_config.json in Resources */,
 				AF5E66DC25F77E14001D3C15 /* BEZigbeeSubdevice.storyboard in Resources */,
 				9813B6B02AA71593001646C0 /* APMode.storyboard in Resources */,
 				82B55B8C2AB2E5E400FBE30B /* BEMemberList.storyboard in Resources */,
@@ -1916,6 +1915,7 @@
 				82B55B882AB2E5BD00FBE30B /* FunctionList.storyboard in Resources */,
 				67956196289A626300BD0FAB /* BETuyaLinkBind.storyboard in Resources */,
 				AF5E2F4125A5A08600DAF14E /* Login.storyboard in Resources */,
+				CC76959E2F99E489008F09ED /* thing_custom_config.json in Resources */,
 				232064BB2AE6588C006B2E33 /* AddScene.storyboard in Resources */,
 				82B55B962AB2FE0700FBE30B /* BEInvitedHome.storyboard in Resources */,
 				677DF2382E3CB199006759F9 /* StreamActionView.xib in Resources */,
@@ -1979,9 +1979,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2018,9 +2022,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2756,8 +2764,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "TuyaAppSDKSample-iOS-Swift/TuyaAppSDKSample-iOS-Swift.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2783,8 +2792,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thingclips.test1001;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betatechnologies.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TuyaAppSDKSample-iOS-Swift/TuyaAppSDKSample-iOS-Swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -2801,8 +2811,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "TuyaAppSDKSample-iOS-Swift/TuyaAppSDKSample-iOS-Swift.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2828,8 +2839,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thingclips.test1001;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betatechnologies.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TuyaAppSDKSample-iOS-Swift/TuyaAppSDKSample-iOS-Swift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

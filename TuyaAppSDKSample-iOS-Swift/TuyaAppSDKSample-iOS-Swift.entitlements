@@ -7,8 +7,6 @@
 	<key>com.apple.developer.networking.multicast</key>
 	<true/>
 	<key>com.apple.security.application-groups</key>
-	<array>
-		<string>group.com.thingclips.test1001</string>
-	</array>
+	<array/>
 </dict>
 </plist>

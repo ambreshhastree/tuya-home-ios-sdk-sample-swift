@@ -125,7 +125,7 @@ class AccountVerificationViewController: UIViewController {
         let email = ThingSmartUser.sharedInstance().email
         let phoneNumber = ThingSmartUser.sharedInstance().phoneNumber
         
-        // 按照提供的逻辑：优先使用邮箱，如果邮箱无效则使用手机号的后半部分
+        // Based on the provided logic: prioritize email; if email is invalid, use the second half of the phone number
         if isValidEmail(email) {
             accountType = .email
             displayAccount = email
@@ -309,14 +309,14 @@ class AccountVerificationViewController: UIViewController {
     }
     
     private func showSendFailureMessage(_ errorMessage: String) {
-        // 隐藏"未收到验证码？"链接
+        // Hide "Didn't receive code?" link
         resendLink.isHidden = true
         
-        // 在instructionLabel中显示失败消息
+        // Show failure message in instructionLabel
         instructionLabel.text = "Failed to send verification code: \(errorMessage)"
         instructionLabel.textColor = .systemRed
         
-        // 3秒后恢复原始状态
+        // Restore original state after 3 seconds
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) { [weak self] in
             self?.resendLink.isHidden = false
             self?.instructionLabel.textColor = .secondaryLabel
@@ -431,13 +431,13 @@ class AccountVerificationViewController: UIViewController {
         let email = ThingSmartUser.sharedInstance().email
         let phoneNumber = ThingSmartUser.sharedInstance().phoneNumber
         
-        // 按照提供的逻辑：优先使用邮箱，如果邮箱无效则使用手机号的后半部分
+        // Based on the provided logic: prioritize email; if email is invalid, use the second half of the phone number
         let accountText: String
         if isValidEmail(email) {
             accountText = email
             accountType = .email
         } else if !phoneNumber.isEmpty {
-            // 提取手机号的后半部分（去掉国家代码）
+            // Extract second half of phone number (remove country code)
             let components = phoneNumber.components(separatedBy: "-")
             accountText = components.last ?? phoneNumber
             accountType = .phone
@@ -471,7 +471,7 @@ class AccountVerificationViewController: UIViewController {
     
     // MARK: - Alert Methods
     private func showLoadingAlert(message: String) {
-        // 先隐藏之前的loading alert
+        // Hide previous loading alert first
         hideLoadingAlert()
         
         let alert = UIAlertController(title: nil, message: message, preferredStyle: .alert)

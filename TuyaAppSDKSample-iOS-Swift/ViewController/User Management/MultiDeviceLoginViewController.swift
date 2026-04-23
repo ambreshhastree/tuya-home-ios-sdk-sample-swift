@@ -57,14 +57,14 @@ class MultiDeviceLoginViewController: UIViewController {
         title = "Multi-Device Login Management"
         view.backgroundColor = .systemGroupedBackground
         
-        // 添加导航栏按钮
+        // Add navigation bar button
         navigationItem.rightBarButtonItem = UIBarButtonItem(
             barButtonSystemItem: .refresh,
             target: self,
             action: #selector(refreshData)
         )
         
-        // 添加说明文字
+        // Add description text
         let descriptionLabel = UILabel()
         descriptionLabel.text = "Your account has been logged in on the following devices. You can remove devices. After removal, security verification will be required when logging in on that device."
         descriptionLabel.font = UIFont.systemFont(ofSize: 14)
@@ -72,12 +72,12 @@ class MultiDeviceLoginViewController: UIViewController {
         descriptionLabel.numberOfLines = 0
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
         
-        // 添加表格视图
+        // Add table view
         view.addSubview(descriptionLabel)
         view.addSubview(tableView)
         tableView.addSubview(refreshControl)
         
-        // 设置约束
+        // Setup constraints
         NSLayoutConstraint.activate([
             descriptionLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
             descriptionLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
@@ -124,7 +124,7 @@ class MultiDeviceLoginViewController: UIViewController {
     }
     
     @objc private func registDeviceTokenForLogout() {
-        // 处理退出通知
+        // Handle logout notification
         print("Received logout notification, returning to home page")
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateInitialViewController()
@@ -161,10 +161,10 @@ class MultiDeviceLoginViewController: UIViewController {
     }
     
     private func performLogout(terminal: ThingSmartLoginTerminalModel, at indexPath: IndexPath) {
-        // 使用已存储的authModel中的退出码
+        // Use the logout code from the stored authModel
         let logoutCode = self.authModel?.logoutCode
         
-        // 使用退出码终止设备会话
+        // Terminate device session using logout code
         ThingSmartUser.sharedInstance().terminateSession(
             onDevice: terminal.terminalId,
             logoutCode: logoutCode ?? ""
@@ -211,7 +211,7 @@ extension MultiDeviceLoginViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        // 只有在验证完成后才能删除设备
+        // Device can only be deleted after verification is completed
         if isVerificationCompleted {
             logoutDevice(at: indexPath)
         }
@@ -261,7 +261,7 @@ extension MultiDeviceLoginViewController: UITableViewDelegate {
         logoutButton.addTarget(self, action: #selector(logoutButtonTapped), for: .touchUpInside)
         logoutButton.translatesAutoresizingMaskIntoConstraints = false
         
-        // 添加右箭头图标
+        // Add right arrow icon
         let arrowImageView = UIImageView(image: UIImage(systemName: "chevron.right"))
         arrowImageView.tintColor = .systemRed
         arrowImageView.translatesAutoresizingMaskIntoConstraints = false
@@ -290,7 +290,7 @@ extension MultiDeviceLoginViewController: UITableViewDelegate {
     }
     
     @objc private func logoutButtonTapped() {
-        // 跳转到验证页面
+        // Navigate to verification page
         let verificationVC = DeviceLogoutVerificationViewController()
         verificationVC.delegate = self
         navigationController?.pushViewController(verificationVC, animated: true)
@@ -298,7 +298,7 @@ extension MultiDeviceLoginViewController: UITableViewDelegate {
 }
 
 // MARK: - Data Models
-// 使用ThingSmartLoginTerminalModel替代自定义的LoginDevice
+// Use ThingSmartLoginTerminalModel instead of custom LoginDevice
 
 // MARK: - Custom Cell
 class LoginDeviceCell: UITableViewCell {
@@ -398,7 +398,7 @@ class LoginDeviceCell: UITableViewCell {
     func configure(with terminal: ThingSmartLoginTerminalModel, isVerificationCompleted: Bool = false) {
         deviceNameLabel.text = terminal.platform ?? "Unknown Device"
         
-        // 格式化登录时间
+        // Format login time
         let loginDate = Date(timeIntervalSince1970: terminal.loginTime)
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd a h:mm"
@@ -406,11 +406,11 @@ class LoginDeviceCell: UITableViewCell {
         let timeString = formatter.string(from: loginDate)
         deviceTypeLabel.text = timeString
         
-        // 隐藏其他标签
+        // Hide other labels
         loginTimeLabel.isHidden = true
         locationLabel.isHidden = true
         
-        // 根据验证状态显示不同的标签
+        // Show different labels based on verification status
         if isVerificationCompleted {
             currentDeviceLabel.text = "Tap to Delete"
             currentDeviceLabel.textColor = .systemRed
@@ -420,7 +420,7 @@ class LoginDeviceCell: UITableViewCell {
         }
         currentDeviceLabel.isHidden = false
         
-        // 设置设备图标
+        // Set device icon
         switch terminal.os.lowercased() {
         case "ios":
             deviceIconImageView.image = UIImage(systemName: "iphone")
@@ -441,25 +441,25 @@ class LoginDeviceCell: UITableViewCell {
 // MARK: - DeviceLogoutVerificationDelegate
 extension MultiDeviceLoginViewController: DeviceLogoutVerificationDelegate {
     func didCompleteVerification() {
-        // 验证完成后刷新设备列表
+        // Refresh device list after verification is completed
         loadLoginTerminals()
     }
     
     func didCompleteAccountVerification(with authModel: ThingSmartAccountAuthenticationModel) {
-        // 账号验证完成，设置验证状态为true并存储authModel
+        // Account verification completed, set status to true and store authModel
         isVerificationCompleted = true
         self.authModel = authModel
         
-        // 刷新表格视图，让设备行变为可点击状态
+        // Refresh table view to make device rows clickable
         tableView.reloadData()
         
-//        // 显示提示信息
+//        // Show success alert
 //        let alert = UIAlertController(
-//            title: "验证成功",
-//            message: "现在可以点击设备进行删除操作",
+//            title: "Verification Successful",
+//            message: "You can now tap a device to delete it",
 //            preferredStyle: .alert
 //        )
-//        alert.addAction(UIAlertAction(title: "确定", style: .default))
+//        alert.addAction(UIAlertAction(title: "OK", style: .default))
 //        present(alert, animated: true)
     }
 }

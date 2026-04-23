@@ -782,7 +782,7 @@
                         </connections>
                     </tableView>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="家庭" id="Z9g-zN-LaE">
+                    <navigationItem key="navigationItem" title="Home" id="Z9g-zN-LaE">
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="trash" id="ojx-JJ-OI6">
                             <connections>
                                 <action selector="delete" destination="SMc-nn-mjw" id="dPX-e5-yMc"/>
@@ -795,7 +795,7 @@
             </objects>
             <point key="canvasLocation" x="1752" y="-1080"/>
         </scene>
-        <!--通知-->
+        <!--Notification-->
         <scene sceneID="pb3-q0-y8r">
             <objects>
                 <tableViewController id="bJA-F6-bzQ" customClass="MessageNoticeViewController" customModule="TuyaAppSDKSample_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -838,7 +838,7 @@
                             <outlet property="delegate" destination="bJA-F6-bzQ" id="vyG-xU-hTp"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="通知" id="9be-Mk-XgH">
+                    <navigationItem key="navigationItem" title="Notification" id="9be-Mk-XgH">
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="trash" id="3t8-QH-Kn5"/>
                     </navigationItem>
                 </tableViewController>
