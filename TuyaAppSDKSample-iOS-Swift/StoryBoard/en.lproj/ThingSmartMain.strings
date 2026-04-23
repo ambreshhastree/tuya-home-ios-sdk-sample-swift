@@ -56,3 +56,5 @@
 /* Class = "UILabel"; text = "SDK "; ObjectID = "y3e-Vx-Sjj"; */
 "y3e-Vx-Sjj.text" = "SDK ";
 "multiDevice-Label.text" = "Multi-device Login";
+"learning-section.headerTitle" = "Learning & Explore";
+"demo-label.text" = "Device Control Demo";

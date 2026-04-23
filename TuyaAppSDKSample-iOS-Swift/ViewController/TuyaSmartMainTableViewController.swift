@@ -71,6 +71,10 @@ class ThingSmartMainTableViewController: UITableViewController {
             guard let home = ThingSmartHome(homeId: current.homeId) else {return}
             let vc = OtaDevicesVc(home: home)
             self.navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 7 && indexPath.row == 0 {
+            // Device Control Demo
+            let vc = DeviceControlDemoViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
         }
     }
 }
