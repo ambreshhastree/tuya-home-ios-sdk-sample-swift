@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF5531DB25A5992500E13562"
-               BuildableName = "TuyaAppSDKSample-iOS-Swift.app"
-               BlueprintName = "TuyaAppSDKSample-iOS-Swift"
-               ReferencedContainer = "container:TuyaAppSDKSample-iOS-Swift.xcodeproj">
+               BuildableName = "BetaTechnologies.app"
+               BlueprintName = "BetaTechnologies"
+               ReferencedContainer = "container:BetaTechnologies.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF5531DB25A5992500E13562"
-            BuildableName = "TuyaAppSDKSample-iOS-Swift.app"
-            BlueprintName = "TuyaAppSDKSample-iOS-Swift"
-            ReferencedContainer = "container:TuyaAppSDKSample-iOS-Swift.xcodeproj">
+            BuildableName = "BetaTechnologies.app"
+            BlueprintName = "BetaTechnologies"
+            ReferencedContainer = "container:BetaTechnologies.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF5531DB25A5992500E13562"
-            BuildableName = "TuyaAppSDKSample-iOS-Swift.app"
-            BlueprintName = "TuyaAppSDKSample-iOS-Swift"
-            ReferencedContainer = "container:TuyaAppSDKSample-iOS-Swift.xcodeproj">
+            BuildableName = "BetaTechnologies.app"
+            BlueprintName = "BetaTechnologies"
+            ReferencedContainer = "container:BetaTechnologies.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

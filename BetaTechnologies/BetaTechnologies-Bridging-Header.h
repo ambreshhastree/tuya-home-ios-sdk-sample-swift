@@ -1,11 +1,11 @@
 //
-//  ThingAppSDKSample-iOS-Swift-Bridging-Header.h
-//  ThingAppSDKSample-iOS-Swift
+//  BetaTechnologies-Bridging-Header.h
+//  BetaTechnologies
 //
 //  Copyright (c) 2014-2021 Thing Inc. (https://developer.tuya.com/)
 
-#ifndef ThingAppSDKSample_iOS_Swift_Bridging_Header_h
-#define ThingAppSDKSample_iOS_Swift_Bridging_Header_h
+#ifndef BetaTechnologies_Bridging_Header_h
+#define BetaTechnologies_Bridging_Header_h
 
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <SGQRCode/SGQRCode.h>
@@ -17,4 +17,4 @@
 
 #import <ThingSmartCameraKit/ThingSmartCameraKit.h>
 
-#endif /* ThingAppSDKSample_iOS_Swift_Bridging_Header_h */
+#endif /* BetaTechnologies_Bridging_Header_h */

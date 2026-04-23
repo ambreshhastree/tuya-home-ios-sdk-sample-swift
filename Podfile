@@ -4,7 +4,7 @@ source 'https://github.com/tuya/tuya-pod-specs.git'
 
 platform :ios, '12.0'
 
-target 'TuyaAppSDKSample-iOS-Swift' do
+target 'BetaTechnologies' do
     use_modular_headers!
     
     # Secret key
@@ -66,7 +66,7 @@ target 'TuyaAppSDKSample-iOS-Swift' do
 
 
   post_install do |installer|
-    `cd TuyaAppSDKSample-iOS-Swift; [[ -f AppKey.swift ]] || cp AppKey.swift.default AppKey.swift;`
+    `cd BetaTechnologies; [[ -f AppKey.swift ]] || cp AppKey.swift.default AppKey.swift;`
     
     
     installer.pod_target_subprojects.each do |subproject|

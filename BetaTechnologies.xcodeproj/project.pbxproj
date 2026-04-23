@@ -11,7 +11,7 @@
 		0534EC1C2ABAED1100DD6E7E /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0534EC1A2ABAED1100DD6E7E /* iconfont.ttf */; };
 		0534EC1E2ABAED2800DD6E7E /* Cardcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534EC1D2ABAED2800DD6E7E /* Cardcell.swift */; };
 		0FF096C42AB3F1EB003C6BDA /* Matter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF096C22AB3F1EB003C6BDA /* Matter.storyboard */; };
-		10F4AAB953F4FBCFFBD0F199 /* libPods-TuyaAppSDKSample-iOS-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A631D49E2E0E816D32C2CC /* libPods-TuyaAppSDKSample-iOS-Swift.a */; };
+		10F4AAB953F4FBCFFBD0F199 /* libPods-BetaTechnologies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A631D49E2E0E816D32C2CC /* libPods-BetaTechnologies.a */; };
 		232064B92AE65884006B2E33 /* SceneList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232064B82AE65884006B2E33 /* SceneList.storyboard */; };
 		232064BB2AE6588C006B2E33 /* AddScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232064BA2AE6588C006B2E33 /* AddScene.storyboard */; };
 		232064BE2AE658BE006B2E33 /* SceneListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232064BD2AE658BE006B2E33 /* SceneListViewController.swift */; };
@@ -326,12 +326,12 @@
 		0534EC192ABAED1100DD6E7E /* iconfont.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iconfont.json; sourceTree = "<group>"; };
 		0534EC1A2ABAED1100DD6E7E /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		0534EC1D2ABAED2800DD6E7E /* Cardcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardcell.swift; sourceTree = "<group>"; };
-		0FF096B02AB3F120003C6BDA /* TuyaAppSDKSample-iOS-Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TuyaAppSDKSample-iOS-Swift.entitlements"; sourceTree = "<group>"; };
+		0FF096B02AB3F120003C6BDA /* BetaTechnologies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetaTechnologies.entitlements; sourceTree = "<group>"; };
 		0FF096B72AB3F137003C6BDA /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 		0FF096B92AB3F137003C6BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FF096C12AB3F13E003C6BDA /* MatterExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MatterExtension.entitlements; sourceTree = "<group>"; };
 		0FF096C32AB3F1EB003C6BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Matter.storyboard; sourceTree = "<group>"; };
-		207E8BAF216CF8ED00C5937A /* Pods-TuyaAppSDKSample-iOS-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaAppSDKSample-iOS-Swift.release.xcconfig"; path = "Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		207E8BAF216CF8ED00C5937A /* Pods-BetaTechnologies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetaTechnologies.release.xcconfig"; path = "Target Support Files/Pods-BetaTechnologies/Pods-BetaTechnologies.release.xcconfig"; sourceTree = "<group>"; };
 		232064B82AE65884006B2E33 /* SceneList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SceneList.storyboard; sourceTree = "<group>"; };
 		232064BA2AE6588C006B2E33 /* AddScene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddScene.storyboard; sourceTree = "<group>"; };
 		232064BD2AE658BE006B2E33 /* SceneListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneListViewController.swift; sourceTree = "<group>"; };
@@ -384,7 +384,7 @@
 		677DF0EF2E3CA1C5006759F9 /* StreamChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamChatMessageCell.swift; sourceTree = "<group>"; };
 		677DF2352E3CB199006759F9 /* StreamActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamActionView.swift; sourceTree = "<group>"; };
 		677DF2362E3CB199006759F9 /* StreamActionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StreamActionView.xib; sourceTree = "<group>"; };
-		6795618F289A55C000BD0FAB /* TuyaAppSDKSample-iOS-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TuyaAppSDKSample-iOS-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		6795618F289A55C000BD0FAB /* BetaTechnologies-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BetaTechnologies-Bridging-Header.h"; sourceTree = "<group>"; };
 		67956197289A626300BD0FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BETuyaLinkBind.storyboard; sourceTree = "<group>"; };
 		6795619A289A626500BD0FAB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/BETuyaLinkBind.strings"; sourceTree = "<group>"; };
 		6795619D289A6AED00BD0FAB /* QRCodeScanerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScanerViewController.swift; sourceTree = "<group>"; };
@@ -589,7 +589,7 @@
 		9813B6D02AA719E0001646C0 /* DualModeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DualModeTableViewController.swift; sourceTree = "<group>"; };
 		9813B6D12AA719E0001646C0 /* TuyaLinkDeviceBindTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuyaLinkDeviceBindTableViewController.swift; sourceTree = "<group>"; };
 		9883F4D22A5FE8A4003202EE /* BETuyaLinkDeviceBindTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BETuyaLinkDeviceBindTableViewController.swift; sourceTree = "<group>"; };
-		98A631D49E2E0E816D32C2CC /* libPods-TuyaAppSDKSample-iOS-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuyaAppSDKSample-iOS-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A631D49E2E0E816D32C2CC /* libPods-BetaTechnologies.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BetaTechnologies.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B4A1EA2AB4620B004D759E /* BEMatterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEMatterTableViewController.swift; sourceTree = "<group>"; };
 		98B4A1ED2AB4622E004D759E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BEMatter.storyboard; sourceTree = "<group>"; };
 		98B4A1F52AB462B6004D759E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/BEMatter.strings"; sourceTree = "<group>"; };
@@ -610,7 +610,7 @@
 		AF05ECCB25CBA83F00C84AF6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DeviceList.strings"; sourceTree = "<group>"; };
 		AF21C1FE25B03D6000D52FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SwitchHome.storyboard; sourceTree = "<group>"; };
 		AF21C20525B0400F00D52FBA /* BEEZModeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BEEZModeTableViewController.swift; sourceTree = "<group>"; };
-		AF37DBB325AEE842000EB0FD /* EditHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditHomeTableViewController.swift; path = "TuyaAppSDKSample-iOS-Swift/ViewController/Home Management/EditHomeTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		AF37DBB325AEE842000EB0FD /* EditHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditHomeTableViewController.swift; path = "BetaTechnologies/ViewController/Home Management/EditHomeTableViewController.swift"; sourceTree = SOURCE_ROOT; };
 		AF3A259B25A835AE003EB9FF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AF3A25A325A8426D003EB9FF /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		AF3A25A625A844DA003EB9FF /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
@@ -621,14 +621,14 @@
 		AF3A25B825AD7CC1003EB9FF /* UserInformationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationTableViewController.swift; sourceTree = "<group>"; };
 		AF3A25BC25AD9AE0003EB9FF /* NewHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHomeTableViewController.swift; sourceTree = "<group>"; };
 		AF3A25C025AE904C003EB9FF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		AF3A25C425AE930E003EB9FF /* SwitchHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwitchHomeTableViewController.swift; path = "TuyaAppSDKSample-iOS-Swift/ViewController/Home Management/SwitchHomeTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		AF3A25C425AE930E003EB9FF /* SwitchHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwitchHomeTableViewController.swift; path = "BetaTechnologies/ViewController/Home Management/SwitchHomeTableViewController.swift"; sourceTree = SOURCE_ROOT; };
 		AF3A25C825AE9F99003EB9FF /* HomeListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListTableViewController.swift; sourceTree = "<group>"; };
-		AF3A25CF25AECFCF003EB9FF /* HomeDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeDetailTableViewController.swift; path = "TuyaAppSDKSample-iOS-Swift/ViewController/Home Management/HomeDetailTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		AF3A25CF25AECFCF003EB9FF /* HomeDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeDetailTableViewController.swift; path = "BetaTechnologies/ViewController/Home Management/HomeDetailTableViewController.swift"; sourceTree = SOURCE_ROOT; };
 		AF3B497F25B7D6C000286C4A /* DeviceControlCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlCell.swift; sourceTree = "<group>"; };
 		AF3B498625B808D700286C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BEEZMode.storyboard; sourceTree = "<group>"; };
 		AF3B498B25B8093600286C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BEAPMode.storyboard; sourceTree = "<group>"; };
 		AF3B499025B8095800286C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DeviceList.storyboard; sourceTree = "<group>"; };
-		AF5531DC25A5992500E13562 /* TuyaAppSDKSample-iOS-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuyaAppSDKSample-iOS-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5531DC25A5992500E13562 /* BetaTechnologies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetaTechnologies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5531DF25A5992500E13562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF5531E125A5992500E13562 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AF5531E825A5992800E13562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -669,11 +669,11 @@
 		AF96129C25B5ACE6000971CC /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 		AF9612F225B6C6ED000971CC /* SliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
 		AF9612F525B6C80E000971CC /* EnumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumTableViewCell.swift; sourceTree = "<group>"; };
-		AF96133B25B7085D000971CC /* StringTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringTableViewCell.swift; path = "TuyaAppSDKSample-iOS-Swift/ViewController/Device Management/Cell/StringTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
-		AF96133F25B708AE000971CC /* LabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LabelTableViewCell.swift; path = "TuyaAppSDKSample-iOS-Swift/ViewController/Device Management/Cell/LabelTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		AF96133B25B7085D000971CC /* StringTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringTableViewCell.swift; path = "BetaTechnologies/ViewController/Device Management/Cell/StringTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		AF96133F25B708AE000971CC /* LabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LabelTableViewCell.swift; path = "BetaTechnologies/ViewController/Device Management/Cell/LabelTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		AFBB5BBE25B95BBA006BDDD7 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
 		AFBB5BC125B95F3C006BDDD7 /* DeviceStatusBehaveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStatusBehaveCell.swift; sourceTree = "<group>"; };
-		B2A4751A3340941A1C42F4D9 /* Pods-TuyaAppSDKSample-iOS-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaAppSDKSample-iOS-Swift.debug.xcconfig"; path = "Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		B2A4751A3340941A1C42F4D9 /* Pods-BetaTechnologies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetaTechnologies.debug.xcconfig"; path = "Target Support Files/Pods-BetaTechnologies/Pods-BetaTechnologies.debug.xcconfig"; sourceTree = "<group>"; };
 		CC76959D2F99E486008F09ED /* thing_custom_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = thing_custom_config.json; sourceTree = "<group>"; };
 		CC76959F2F99F20F008F09ED /* DeviceControlDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -683,7 +683,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F4AAB953F4FBCFFBD0F199 /* libPods-TuyaAppSDKSample-iOS-Swift.a in Frameworks */,
+				10F4AAB953F4FBCFFBD0F199 /* libPods-BetaTechnologies.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1585,7 +1585,7 @@
 		87E8F60384D829671393D688 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				98A631D49E2E0E816D32C2CC /* libPods-TuyaAppSDKSample-iOS-Swift.a */,
+				98A631D49E2E0E816D32C2CC /* libPods-BetaTechnologies.a */,
 				825795A02CCF84580080E2CE /* WidgetKit.framework */,
 				825795A22CCF84580080E2CE /* SwiftUI.framework */,
 			);
@@ -1693,7 +1693,7 @@
 			isa = PBXGroup;
 			children = (
 				825795C62CCF848A0080E2CE /* TuyaAppSDKWidgetExtension.entitlements */,
-				AF5531DE25A5992500E13562 /* TuyaAppSDKSample-iOS-Swift */,
+				AF5531DE25A5992500E13562 /* BetaTechnologies */,
 				0FF096B62AB3F137003C6BDA /* MatterExtension */,
 				825795BF2CCF846C0080E2CE /* TuyaAppSDKWidget */,
 				AF5531DD25A5992500E13562 /* Products */,
@@ -1705,18 +1705,18 @@
 		AF5531DD25A5992500E13562 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF5531DC25A5992500E13562 /* TuyaAppSDKSample-iOS-Swift.app */,
+				AF5531DC25A5992500E13562 /* BetaTechnologies.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF5531DE25A5992500E13562 /* TuyaAppSDKSample-iOS-Swift */ = {
+		AF5531DE25A5992500E13562 /* BetaTechnologies */ = {
 			isa = PBXGroup;
 			children = (
 				CC76959D2F99E486008F09ED /* thing_custom_config.json */,
 				0534EC192ABAED1100DD6E7E /* iconfont.json */,
 				0534EC1A2ABAED1100DD6E7E /* iconfont.ttf */,
-				0FF096B02AB3F120003C6BDA /* TuyaAppSDKSample-iOS-Swift.entitlements */,
+				0FF096B02AB3F120003C6BDA /* BetaTechnologies.entitlements */,
 				AF55320C25A59BE800E13562 /* AppKey.swift */,
 				AF5531DF25A5992500E13562 /* AppDelegate.swift */,
 				AF5531E125A5992500E13562 /* SceneDelegate.swift */,
@@ -1727,9 +1727,9 @@
 				AF5531ED25A5992800E13562 /* Info.plist */,
 				AF60B8C325BEBA1600E18F6F /* Localizable.strings */,
 				AF60B8C025BEBA1600E18F6F /* InfoPlist.strings */,
-				6795618F289A55C000BD0FAB /* TuyaAppSDKSample-iOS-Swift-Bridging-Header.h */,
+				6795618F289A55C000BD0FAB /* BetaTechnologies-Bridging-Header.h */,
 			);
-			path = "TuyaAppSDKSample-iOS-Swift";
+			path = BetaTechnologies;
 			sourceTree = "<group>";
 		};
 		AF5E2F3325A5A08600DAF14E /* StoryBoard */ = {
@@ -1834,8 +1834,8 @@
 		BD36B163EF3854B6423E5580 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2A4751A3340941A1C42F4D9 /* Pods-TuyaAppSDKSample-iOS-Swift.debug.xcconfig */,
-				207E8BAF216CF8ED00C5937A /* Pods-TuyaAppSDKSample-iOS-Swift.release.xcconfig */,
+				B2A4751A3340941A1C42F4D9 /* Pods-BetaTechnologies.debug.xcconfig */,
+				207E8BAF216CF8ED00C5937A /* Pods-BetaTechnologies.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1843,9 +1843,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF5531DB25A5992500E13562 /* TuyaAppSDKSample-iOS-Swift */ = {
+		AF5531DB25A5992500E13562 /* BetaTechnologies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF5531F025A5992800E13562 /* Build configuration list for PBXNativeTarget "TuyaAppSDKSample-iOS-Swift" */;
+			buildConfigurationList = AF5531F025A5992800E13562 /* Build configuration list for PBXNativeTarget "BetaTechnologies" */;
 			buildPhases = (
 				A1B71A9A9659F8885DE3459F /* [CP] Check Pods Manifest.lock */,
 				AF5531D825A5992500E13562 /* Sources */,
@@ -1859,9 +1859,9 @@
 			);
 			dependencies = (
 			);
-			name = "TuyaAppSDKSample-iOS-Swift";
-			productName = "TuyaAppSDKSample-iOS-Swift";
-			productReference = AF5531DC25A5992500E13562 /* TuyaAppSDKSample-iOS-Swift.app */;
+			name = BetaTechnologies;
+			productName = BetaTechnologies;
+			productReference = AF5531DC25A5992500E13562 /* BetaTechnologies.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1879,7 +1879,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF5531D725A5992500E13562 /* Build configuration list for PBXProject "TuyaAppSDKSample-iOS-Swift" */;
+			buildConfigurationList = AF5531D725A5992500E13562 /* Build configuration list for PBXProject "BetaTechnologies" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1893,7 +1893,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF5531DB25A5992500E13562 /* TuyaAppSDKSample-iOS-Swift */,
+				AF5531DB25A5992500E13562 /* BetaTechnologies */,
 			);
 		};
 /* End PBXProject section */
@@ -1980,19 +1980,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetaTechnologies/Pods-BetaTechnologies-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetaTechnologies/Pods-BetaTechnologies-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetaTechnologies/Pods-BetaTechnologies-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A1B71A9A9659F8885DE3459F /* [CP] Check Pods Manifest.lock */ = {
@@ -2010,7 +2006,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TuyaAppSDKSample-iOS-Swift-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BetaTechnologies-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2023,19 +2019,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetaTechnologies/Pods-BetaTechnologies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetaTechnologies/Pods-BetaTechnologies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKSample-iOS-Swift/Pods-TuyaAppSDKSample-iOS-Swift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetaTechnologies/Pods-BetaTechnologies-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2761,13 +2753,13 @@
 		};
 		AF5531F125A5992800E13562 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2A4751A3340941A1C42F4D9 /* Pods-TuyaAppSDKSample-iOS-Swift.debug.xcconfig */;
+			baseConfigurationReference = B2A4751A3340941A1C42F4D9 /* Pods-BetaTechnologies.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "TuyaAppSDKSample-iOS-Swift/TuyaAppSDKSample-iOS-Swift.entitlements";
+				CODE_SIGN_ENTITLEMENTS = BetaTechnologies/BetaTechnologies.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2V9L6U5ACK;
@@ -2790,7 +2782,7 @@
 					"\"${PODS_ROOT}/TuyaSmartTimerKit/ios\"",
 					"\"${PODS_ROOT}/TuyaSmartUtil/ios\"",
 				);
-				INFOPLIST_FILE = "TuyaAppSDKSample-iOS-Swift/Info.plist";
+				INFOPLIST_FILE = BetaTechnologies/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2799,7 +2791,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.betatechnologies.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "TuyaAppSDKSample-iOS-Swift/TuyaAppSDKSample-iOS-Swift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BetaTechnologies/BetaTechnologies-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2808,13 +2800,13 @@
 		};
 		AF5531F225A5992800E13562 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 207E8BAF216CF8ED00C5937A /* Pods-TuyaAppSDKSample-iOS-Swift.release.xcconfig */;
+			baseConfigurationReference = 207E8BAF216CF8ED00C5937A /* Pods-BetaTechnologies.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "TuyaAppSDKSample-iOS-Swift/TuyaAppSDKSample-iOS-Swift.entitlements";
+				CODE_SIGN_ENTITLEMENTS = BetaTechnologies/BetaTechnologies.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2V9L6U5ACK;
@@ -2837,7 +2829,7 @@
 					"\"${PODS_ROOT}/TuyaSmartTimerKit/ios\"",
 					"\"${PODS_ROOT}/TuyaSmartUtil/ios\"",
 				);
-				INFOPLIST_FILE = "TuyaAppSDKSample-iOS-Swift/Info.plist";
+				INFOPLIST_FILE = BetaTechnologies/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2846,7 +2838,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.betatechnologies.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "TuyaAppSDKSample-iOS-Swift/TuyaAppSDKSample-iOS-Swift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BetaTechnologies/BetaTechnologies-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2855,7 +2847,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF5531D725A5992500E13562 /* Build configuration list for PBXProject "TuyaAppSDKSample-iOS-Swift" */ = {
+		AF5531D725A5992500E13562 /* Build configuration list for PBXProject "BetaTechnologies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF5531EE25A5992800E13562 /* Debug */,
@@ -2864,7 +2856,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF5531F025A5992800E13562 /* Build configuration list for PBXNativeTarget "TuyaAppSDKSample-iOS-Swift" */ = {
+		AF5531F025A5992800E13562 /* Build configuration list for PBXNativeTarget "BetaTechnologies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF5531F125A5992800E13562 /* Debug */,
